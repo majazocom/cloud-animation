@@ -7,3 +7,46 @@ figure {
 figure svg {
     width: 300px;
 }
+
+#drop1 {
+    animation: rain 3s ease infinite;
+}
+#drop2 {
+    animation: rain 2s ease infinite;
+}
+#drop3 {
+    animation: rain 2.5s ease infinite;
+}
+#drop4 {
+    animation: rain 2s ease infinite;
+}
+#drop5 {
+    animation: rain2 5s ease infinite;
+}
+
+@keyframes rain {
+    0% {
+        transform: translateY(-25px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(25px);
+        opacity: 0;
+    }
+}
+@keyframes rain2 {
+    0% {
+        transform: translateY(-75px);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(2px);
+        opacity: 0;
+    }
+}
