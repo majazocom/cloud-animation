@@ -1,0 +1,9 @@
+figure {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+figure svg {
+    width: 300px;
+}
